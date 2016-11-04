@@ -12,6 +12,7 @@
 		D7CB317E1DCA36660081C940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CB317C1DCA36660081C940 /* Main.storyboard */; };
 		D7CB31801DCA36660081C940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CB317F1DCA36660081C940 /* Assets.xcassets */; };
 		D7CB31831DCA36660081C940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CB31811DCA36660081C940 /* LaunchScreen.storyboard */; };
+		D7DF22881DCB93E9006C654D /* starViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF22871DCB93E9006C654D /* starViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7CB317F1DCA36660081C940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7CB31821DCA36660081C940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CB31841DCA36660081C940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DF22871DCB93E9006C654D /* starViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = starViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D7CB31781DCA36660081C940 /* AppDelegate.swift */,
 				D7CB317A1DCA36660081C940 /* ViewController.swift */,
 				D7CB317C1DCA36660081C940 /* Main.storyboard */,
+				D7DF22871DCB93E9006C654D /* starViewController.swift */,
 				D7CB317F1DCA36660081C940 /* Assets.xcassets */,
 				D7CB31811DCA36660081C940 /* LaunchScreen.storyboard */,
 				D7CB31841DCA36660081C940 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DF22881DCB93E9006C654D /* starViewController.swift in Sources */,
 				D7CB317B1DCA36660081C940 /* ViewController.swift in Sources */,
 				D7CB31791DCA36660081C940 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				D7CB31891DCA36660081C940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
