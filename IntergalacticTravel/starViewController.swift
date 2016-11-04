@@ -10,6 +10,8 @@ import UIKit
 
 class starViewController: UIViewController {
 
+    var isBlueStar: Bool?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
